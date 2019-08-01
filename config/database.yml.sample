@@ -6,8 +6,8 @@ default: &default
 
 development:
   <<: *default
-  database: file_search_development
+  database: # database development name
 
 test:
   <<: *default
-  database: file_search_test
+  database: # database test name
